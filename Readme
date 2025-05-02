@@ -1,0 +1,22 @@
+# 🏡 Real Estate Management System (C++)
+
+## 📌 Project Description
+
+This is a simple **Real Estate Management System** built using C++. It allows the user to enter and manage details about different types of properties such as:
+
+* Apartments
+* Houses
+* Commercial Properties
+
+The system takes input from the user like **location**, **price**, **availability**, and **specific details** (e.g., floor number, number of rooms, office spaces), and displays complete property details.
+
+---
+
+## 🧠 OOP Concepts Used
+
+* **Abstraction**: Abstract base class `Property` hides implementation details and provides a standard interface.
+* **Inheritance**: `Apartment`, `House`, and `CommercialProperty` inherit from `Property` class.
+* **Polymorphism**: The `display()` function is overridden in all child classes to show specific property details.
+* **Dynamic Memory Allocation**: Property objects are created at runtime using pointers (`new` and `delete`).
+
+
